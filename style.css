@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1140px;
+}
+
+.space {
+    padding: 110px 0px;
+}
+
+.new-space {
+    padding: 50px 0px;
+}
+
+.text-muted {
+    color: #839393 !important;
+}
+
+.logo img {
+    width: 107px;
+    height: 30px;
+}
+
+span {
+    color: #ff805d;
+}
+
+a.global-style {
+    background-color: #ff805d !important;
+}
+
+
+/* Navbar  */
+#nav {
+
+    box-shadow: 0px 3px 10px 0px rgb(38 107 193 / 8%);
+}
+
+header {
+    z-index: 1020;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 22px !important;
+
+}
+
+li.nav-item {
+    padding: 0px 8px;
+}
+
+.sign-up-btn a {
+    padding: 8px 25px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.sign-up-btn a:hover {
+    transform: translateY(-6px);
+}
+
+.nav-link {
+    color: #000;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff805d;
+}
+
+/* Hero Section  */
+#hero {
+    position: relative;
+}
+
+.home-hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #152c5c;
+    z-index: -3;
+    width: 65%;
+    height: 100vh;
+    left: auto;
+    right: 0;
+}
+
+.home-hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f8f9fa;
+    z-index: -2;
+    width: 27%;
+    height: 100vh;
+    left: auto;
+    right: 0;
+}
+
+
+.left-img {
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* Services Section  */
+
+a.icon-style {
+    padding: 10px 10px 10px 12px;
+    color: #fff;
+    background: #ff805d;
+    /* margin: 0px; */
+}
+
+span.ser::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.card {
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px;
+}
+
+/* About us  */
+
+.aun {
+    justify-content: center;
+}
+
+.tab-text a {
+    color: #ff805d;
+}
+
+.tab-text p {
+    margin: 20px 0px;
+}
+
+button.active {
+    color: #000 !important;
+    padding: 20px 55px;
+    border: 2px solid #ff805d !important;
+    background-color: transparent !important;
+}
+
+button.custom {
+    padding: 20px 55px;
+}
+
+/* Features  */
+.box-in {
+    margin: 20px;
+    padding: 24px 21px;
+    background-color: rgba(255, 226, 218, 0.9) !important;
+    border-radius: 14px;
+    gap: 15px;
+}
+
+/* Pricing */
+h1.xoxo {
+    color: #ff805d;
+}
+
+.list-new li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.price-card {
+    box-shadow: rgb(0 0 0 / 12%) 0px 7px 29px 0px;
+    padding: 46px 20px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    margin: 30px 0px;
+    overflow: hidden;
+}
+
+.list-new button {
+    width: 96%;
+    margin: 10px 2% 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.exe {
+    transform: scale(1.1);
+    border: 2px solid #ff805d;
+}
+
+.goo:hover {
+    transform: scale(1.1);
+}
+
+.ribbon {
+    background: #ff805d;
+    color: #fff;
+    font-size: .9em;
+    padding: 45px 54px 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -23px;
+    right: -60px;
+    border-radius: 50%;
+}
+
+
+/* Testimonials  */
+.test-row {
+    padding: 70px 0px;
+}
+
+.test-box {
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 20px 30px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.text-inner {
+    gap: 15px !important;
+}
+
+.bg {
+    position: absolute;
+}
+
+.bg {
+    z-index: -1;
+}
+
+.test-box:hover {
+    border: 1px solid transparent;
+}
+
+
+/* Teams Section  */
+.teams-img img {
+    border-radius: 10px;
+}
+
+.teams-title {
+    padding: 10px 0px;
+}
+
+.teams-title h4 {
+    letter-spacing: 2px;
+}
+
+.teams-title h6 {
+    letter-spacing: 2px;
+}
+
+.teams-hover {
+    position: absolute;
+    top: 0;
+    bottom: 83px;
+    left: 0;
+    right: 0;
+    padding: 45px;
+    border: 10px solid #ff805d;
+    background-color: rgba(255,255,255,.8);
+    border-radius: 20px;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.teams-text-one{
+    transform: translateY(-50px);
+    transition: all 1s;
+}
+.teams-icon a{
+    font-size: 20px;
+    padding-right: 10px;
+}
+a.insta{
+    color: palevioletred;
+}
+.col-hover:hover .teams-hover{
+    opacity: 1;  
+}
+.col-hover:hover .teams-text-one{
+    transform: translateY(0px);  
+}
+
+/* Contact Form */
+button.submit-btn{
+    margin: 13px 0px;
+    padding: 12px 20px;
+    background-color: #ff805d;
+    color: #fff;
+    border: none;
+}
+.input-group input:focus{
+    box-shadow: none;
+}
+.contact-list ul li{
+    list-style-type: none;
+    color: gray;
+    padding-bottom: 5px;
+}
+.contact-list ul li p i{
+    padding-right: 6px;
+}
+
+
+/* Footer  */
+Footer{
+    background-color: rgba(255, 244, 241, 0.9) !important;
+}
+.footer-col h5{
+    margin-bottom: 25px;
+}
+.footer-col ul{
+    padding-left: 0px;
+}
+.footer-col ul li{
+    list-style-type: none;
+    text-align: start;
+    padding-bottom: 13px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s;
+}
+.footer-col ul li a:hover{
+    color: #ff805d;
+}
+.footer-input input{
+    border-radius: 0%;
+    border: 1px solid #000;
+}
+.footer-input input:focus{
+    border-color: #000;
+}
+.footer-input input::placeholder{
+    color: #000;
+}
+.footer-input span{
+    color: #fff;
+    background-color: #ff805d;
+    border-radius: 0%;
+    border: 1px solid #000;
+}
+
+.footer-icons a {
+    font-size: 22px;
+    color: #fff;
+    padding: 5px 9px;
+    background: #ff805d;
+    border-radius: 20px;
+    margin-right: 5px;
+    transition: all 0.3s;
+    box-shadow: 0 10px 10px rgb(37 45 49 / 10%);
+}
+.footer-icons a:hover{
+    color: #ff805d;
+    background-color: #fff;
+}
+.footer-down{
+    background-color: #ff805d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Modal  */
+.modal-body iframe {
+    width: -webkit-fill-available;
+}
+
+@media screen and (max-width:426px) {
+
+    /* Navbar  */
+    ul.navbar-nav {
+        margin: 0 !important;
+    }
+
+    .sign-up-btn {
+        margin-top: 20px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /* Hero Section  */
+    .home-hero::before {
+        width: 100%;
+        height: 100vh;
+        background-color: #f8f9fa;
+    }
+
+    .xx {
+        background-color: #f8f9fa;
+    }
+
+    .left-img {
+        display: none;
+    }
+
+    .hero-text {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 32px;
+    }
+
+    /* Brand Logo Section  */
+    .bl {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 21px;
+
+    }
+
+    /* Services Section  */
+    .add {
+        padding-bottom: 23px;
+    }
+
+    /* About us  */
+    button.custom {
+        padding: 15px 29px;
+    }
+
+    /* Testimonials */
+    .test-box {
+        margin: 0 !important;
+        margin-bottom: 25px;
+    }
+    /* Contact List  */
+    .contact-list{
+        text-align: start !important;
+    }
+    .contact-list ul{
+        padding: 0%;
+    }
+    /* Footer  */
+    .footer-icons a{
+        font-size: 20px;
+        margin-right: -4px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar  */
+    ul.navbar-nav {
+        margin: 0 !important;
+    }
+
+    .sign-up-btn {
+        margin-top: 20px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    /* Hero Section  */
+    .space {
+        padding: 40px 0px;
+    }
+
+    .home-hero::before {
+        width: 100%;
+        height: 100vh;
+        background-color: #f8f9fa;
+    }
+
+    .xx {
+        background-color: #f8f9fa;
+    }
+
+    .left-img {
+        display: none;
+    }
+
+    .hero-text {
+        padding-top: 100px;
+        padding-bottom: 32px;
+    }
+
+    .hero-img {
+        text-align: center;
+    }
+
+    /* Services Section  */
+    .add {
+        padding-bottom: 23px;
+    }
+
+    /* Pricing */
+    .exe {
+        transform: scale(1.0);
+    }
+
+    .g-5,
+    .gx-5 {
+        --bs-gutter-x: 10px;
+    }
+    /* Contact List  */
+    .contact-list{
+        text-align: start !important;
+    }
+    .contact-list ul{
+        padding: 0%;
+    }
+}
